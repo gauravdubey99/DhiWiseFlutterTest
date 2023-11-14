@@ -26,7 +26,7 @@ class DashboardItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: dashboardItemModelObj?.image,
+            imagePath: dashboardItemModelObj.image,
             height: 133.adaptSize,
             width: 133.adaptSize,
             radius: BorderRadius.circular(

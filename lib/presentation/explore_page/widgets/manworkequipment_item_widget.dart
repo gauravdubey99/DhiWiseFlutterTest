@@ -23,7 +23,7 @@ class ManworkequipmentItemWidget extends StatelessWidget {
           width: 70.adaptSize,
           padding: EdgeInsets.all(23.h),
           child: CustomImageView(
-            imagePath: manworkequipmentItemModelObj?.manWorkEquipment,
+            imagePath: manworkequipmentItemModelObj.manWorkEquipment,
           ),
         ),
         SizedBox(height: 8.v),

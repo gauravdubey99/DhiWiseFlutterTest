@@ -23,7 +23,7 @@ class WomantshirticonItemWidget extends StatelessWidget {
           width: 70.adaptSize,
           padding: EdgeInsets.all(23.h),
           child: CustomImageView(
-            imagePath: womantshirticonItemModelObj?.womanTShirtIcon,
+            imagePath: womantshirticonItemModelObj.womanTShirtIcon,
           ),
         ),
         SizedBox(height: 7.v),

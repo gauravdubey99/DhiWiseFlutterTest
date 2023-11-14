@@ -27,7 +27,7 @@ class CategoriesItemWidget extends StatelessWidget {
               width: 70.adaptSize,
               padding: EdgeInsets.all(23.h),
               child: CustomImageView(
-                imagePath: categoriesItemModelObj?.arrowLeft,
+                imagePath: categoriesItemModelObj.arrowLeft,
               ),
             ),
             SizedBox(height: 7.v),

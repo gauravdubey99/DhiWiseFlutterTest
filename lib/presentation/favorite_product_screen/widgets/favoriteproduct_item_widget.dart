@@ -33,7 +33,7 @@ class FavoriteproductItemWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             CustomImageView(
-              imagePath: favoriteproductItemModelObj?.image,
+              imagePath: favoriteproductItemModelObj.image,
               height: 133.adaptSize,
               width: 133.adaptSize,
               radius: BorderRadius.circular(

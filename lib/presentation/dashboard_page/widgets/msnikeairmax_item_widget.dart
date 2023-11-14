@@ -26,7 +26,7 @@ class MsnikeairmaxItemWidget extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           CustomImageView(
-            imagePath: msnikeairmaxItemModelObj?.image,
+            imagePath: msnikeairmaxItemModelObj.image,
             height: 109.adaptSize,
             width: 109.adaptSize,
             radius: BorderRadius.circular(
